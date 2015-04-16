@@ -1,0 +1,28 @@
+//#include "fnc\ext\unitCaching\description.ext"
+
+//BASIC//
+class Header
+{
+	gameType = Coop;
+	minPlayers = 8;
+	maxPlayers = 12;
+};
+
+onLoadName = "   ???";
+onLoadMission = "   ???";
+author = "CC_Moska";
+loadScreen = "";
+overviewPicture = "";
+overviewText = "   ???";
+
+//SOUNDS//
+class CfgSounds
+{
+	sounds[] = {};
+	class wait
+	{
+		name = "wait_sound";
+		sound[] = {"dat\snd\wait.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+};
